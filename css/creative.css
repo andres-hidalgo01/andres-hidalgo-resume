@@ -24,13 +24,9 @@ a:hover,
 a:focus {
   color: #eb3812;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+
 }
 p {
   font-size: 16px;
@@ -155,19 +151,23 @@ header {
   color: white;
 }
 
-header img{ 
+header img
+{ 
  display: block;
- margin: 0 auto 20px;}
+ margin: 0 auto 20px;
+}
 
- header .header-content {
+ header .header-content 
+ {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
+
 header .header-content .header-content-inner h1 {
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
@@ -181,6 +181,7 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -402,7 +403,7 @@ fieldset[disabled] .btn-primary.active {
   /*border: 2px solid #fff;*/
   border-radius: 100%!important;
   font-size: 40px;
-  /* color: #fff; */
+   color: #F05F40; 
   /*background: 0 0;*/
   /*background: white;*/
   -webkit-transition: background .3s ease-in-out;
@@ -410,6 +411,13 @@ fieldset[disabled] .btn-primary.active {
   transition: background .3s ease-in-out;
 
 }
+
+.btn-circle:hover
+{
+  color: white; 
+}
+
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
